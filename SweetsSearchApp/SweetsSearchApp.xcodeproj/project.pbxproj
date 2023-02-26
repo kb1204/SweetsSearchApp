@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C4636B8456CE10F78B9AC3F /* Pods_SweetsSearchApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9B1C42B68A4FD3AEE9A8D9 /* Pods_SweetsSearchApp.framework */; };
+		FE3124C12969215300BA4D6D /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3124C02969215300BA4D6D /* FavoriteViewController.swift */; };
+		FE37222C29717BC3007B4772 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE37222B29717BC3007B4772 /* WebViewController.swift */; };
+		FE9441C6296ADC6C00A9D0BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE9441C5296ADC6C00A9D0BF /* GoogleService-Info.plist */; };
+		FE9441C8296AE4C100A9D0BF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9441C7296AE4C100A9D0BF /* Model.swift */; };
+		FEB855A62966717300026485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB855A52966717300026485 /* AppDelegate.swift */; };
+		FEB855A82966717300026485 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB855A72966717300026485 /* SceneDelegate.swift */; };
+		FEB855AA2966717300026485 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB855A92966717300026485 /* ViewController.swift */; };
+		FEB855AD2966717300026485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB855AB2966717300026485 /* Main.storyboard */; };
+		FEB855AF2966717400026485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB855AE2966717400026485 /* Assets.xcassets */; };
+		FEB855B22966717400026485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB855B02966717400026485 /* LaunchScreen.storyboard */; };
+		FEB855BA2967AC1100026485 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB855B92967AC1100026485 /* SearchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E9B1C42B68A4FD3AEE9A8D9 /* Pods_SweetsSearchApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetsSearchApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FDD208A6BDCDE0D7EC4CA2 /* Pods-SweetsSearchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetsSearchApp.release.xcconfig"; path = "Target Support Files/Pods-SweetsSearchApp/Pods-SweetsSearchApp.release.xcconfig"; sourceTree = "<group>"; };
+		ED8EB89925D919D61E4498FD /* Pods-SweetsSearchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetsSearchApp.debug.xcconfig"; path = "Target Support Files/Pods-SweetsSearchApp/Pods-SweetsSearchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FE3124C02969215300BA4D6D /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		FE37222B29717BC3007B4772 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		FE9441C5296ADC6C00A9D0BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FE9441C7296AE4C100A9D0BF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FEB855A22966717300026485 /* SweetsSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetsSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB855A52966717300026485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEB855A72966717300026485 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEB855A92966717300026485 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEB855AC2966717300026485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEB855AE2966717400026485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEB855B12966717400026485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEB855B32966717400026485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB855B92967AC1100026485 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEB8559F2966717300026485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4636B8456CE10F78B9AC3F /* Pods_SweetsSearchApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17802627F30B423288CD8E0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED8EB89925D919D61E4498FD /* Pods-SweetsSearchApp.debug.xcconfig */,
+				A5FDD208A6BDCDE0D7EC4CA2 /* Pods-SweetsSearchApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F078B7A96359C9F6D1F97FC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E9B1C42B68A4FD3AEE9A8D9 /* Pods_SweetsSearchApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEB855992966717300026485 = {
+			isa = PBXGroup;
+			children = (
+				FEB855A42966717300026485 /* SweetsSearchApp */,
+				FEB855A32966717300026485 /* Products */,
+				17802627F30B423288CD8E0B /* Pods */,
+				F078B7A96359C9F6D1F97FC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEB855A32966717300026485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEB855A22966717300026485 /* SweetsSearchApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEB855A42966717300026485 /* SweetsSearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				FEB855A52966717300026485 /* AppDelegate.swift */,
+				FEB855A72966717300026485 /* SceneDelegate.swift */,
+				FEB855A92966717300026485 /* ViewController.swift */,
+				FEB855B92967AC1100026485 /* SearchViewController.swift */,
+				FE3124C02969215300BA4D6D /* FavoriteViewController.swift */,
+				FE37222B29717BC3007B4772 /* WebViewController.swift */,
+				FEB855AB2966717300026485 /* Main.storyboard */,
+				FE9441C7296AE4C100A9D0BF /* Model.swift */,
+				FEB855AE2966717400026485 /* Assets.xcassets */,
+				FEB855B02966717400026485 /* LaunchScreen.storyboard */,
+				FEB855B32966717400026485 /* Info.plist */,
+				FE9441C5296ADC6C00A9D0BF /* GoogleService-Info.plist */,
+			);
+			path = SweetsSearchApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEB855A12966717300026485 /* SweetsSearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB855B62966717400026485 /* Build configuration list for PBXNativeTarget "SweetsSearchApp" */;
+			buildPhases = (
+				C9ADE08EC85C223A358D0850 /* [CP] Check Pods Manifest.lock */,
+				FEB8559E2966717300026485 /* Sources */,
+				FEB8559F2966717300026485 /* Frameworks */,
+				FEB855A02966717300026485 /* Resources */,
+				D08CADF91D289936D556257F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetsSearchApp;
+			productName = SweetsSearchApp;
+			productReference = FEB855A22966717300026485 /* SweetsSearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEB8559A2966717300026485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FEB855A12966717300026485 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = FEB8559D2966717300026485 /* Build configuration list for PBXProject "SweetsSearchApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEB855992966717300026485;
+			productRefGroup = FEB855A32966717300026485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEB855A12966717300026485 /* SweetsSearchApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEB855A02966717300026485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB855B22966717400026485 /* LaunchScreen.storyboard in Resources */,
+				FE9441C6296ADC6C00A9D0BF /* GoogleService-Info.plist in Resources */,
+				FEB855AF2966717400026485 /* Assets.xcassets in Resources */,
+				FEB855AD2966717300026485 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9ADE08EC85C223A358D0850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweetsSearchApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08CADF91D289936D556257F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetsSearchApp/Pods-SweetsSearchApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetsSearchApp/Pods-SweetsSearchApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SweetsSearchApp/Pods-SweetsSearchApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEB8559E2966717300026485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB855AA2966717300026485 /* ViewController.swift in Sources */,
+				FEB855A62966717300026485 /* AppDelegate.swift in Sources */,
+				FEB855BA2967AC1100026485 /* SearchViewController.swift in Sources */,
+				FE9441C8296AE4C100A9D0BF /* Model.swift in Sources */,
+				FE37222C29717BC3007B4772 /* WebViewController.swift in Sources */,
+				FEB855A82966717300026485 /* SceneDelegate.swift in Sources */,
+				FE3124C12969215300BA4D6D /* FavoriteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEB855AB2966717300026485 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB855AC2966717300026485 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEB855B02966717400026485 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB855B12966717400026485 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEB855B42966717400026485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEB855B52966717400026485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEB855B72966717400026485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8EB89925D919D61E4498FD /* Pods-SweetsSearchApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BH75CW7F6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SweetsSearchApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KBarnes.SweetsSearchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEB855B82966717400026485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FDD208A6BDCDE0D7EC4CA2 /* Pods-SweetsSearchApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BH75CW7F6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SweetsSearchApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KBarnes.SweetsSearchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEB8559D2966717300026485 /* Build configuration list for PBXProject "SweetsSearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB855B42966717400026485 /* Debug */,
+				FEB855B52966717400026485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB855B62966717400026485 /* Build configuration list for PBXNativeTarget "SweetsSearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB855B72966717400026485 /* Debug */,
+				FEB855B82966717400026485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEB8559A2966717300026485 /* Project object */;
+}
